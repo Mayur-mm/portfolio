@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -1187,4 +1187,11 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+a.download {
+  background-color: #18d26e;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
 }
